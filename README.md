@@ -1,4 +1,4 @@
-# UMBC-DATA606-Capstone
+# UMBC - DATA 606 CAPSTONE
 # Smart Sitting Posture & Wellness Monitoring System Using Computer Vision and Machine Learning
 
 ## Introduction
@@ -21,8 +21,7 @@ This project proposes a **vision-based, AI-driven, non-intrusive monitoring syst
 ## Methodology
 
 ### 1. Posture Recognition (Custom ML Model)
-- **Dataset:** The project will utilize a labeled dataset from Roboflow (*Sitting Posture Dataset*), covering multiple posture categories such as correct sitting, slouching, and leaning forward. Additional images may be collected to balance classes and improve robustness.
-- Link:https://universe.roboflow.com/ikornproject/sitting-posture-rofqf 
+- **Dataset:** The project will utilize a labeled dataset from Roboflow (*Sitting Posture Dataset*), covering multiple posture categories such as correct sitting, slouching, and leaning forward. Additional images may be collected to balance classes and improve robustness.  
 - **Preprocessing:** Images will be resized, normalized, and augmented (rotation, scaling, brightness adjustments) to improve model generalization.  
 - **Model Training:**  
   - A YOLOv8-based model will be fine-tuned for real-time posture detection and classification.  
@@ -61,6 +60,29 @@ This project proposes a **vision-based, AI-driven, non-intrusive monitoring syst
 
 ---
 
+## Technology Stack
+
+### **Programming Language**
+- **Python 3.10+**
+
+### **Machine Learning & Computer Vision**
+- **YOLOv8 (Ultralytics)** → Posture classification, bottle/cup detection  
+- **MediaPipe (Google)** → Pose, Hands, Face detection  
+- **OpenCV** → Video capture and visualization  
+
+### **Data Handling & Training**
+- **PyTorch** → Model training and fine-tuning  
+- **Pandas / NumPy** → Data logging and analysis  
+
+### **Visualization & Dashboard**
+- **Matplotlib / Seaborn** → Analytics and visualization  
+- **Streamlit** → Interactive wellness dashboard  
+
+### **Notifications**
+- **Pygame / Toast / Custom Popups** → Real-time user alerts  
+
+---
+
 ## Expected Outcomes
 - A robust computer vision system capable of detecting **good vs bad posture** with high accuracy.  
 - An automated water drinking detection mechanism with minimized false positives.  
@@ -85,10 +107,6 @@ This project proposes a **vision-based, AI-driven, non-intrusive monitoring syst
 4. **Personal Lifestyle Improvement**  
    - Serve as a digital wellness assistant for individuals who spend extended hours on computers.  
    - Provide personalized health insights over time.  
-
-5. **Ergonomics Research**  
-   - Generate valuable datasets and insights into sitting behavior, hydration patterns, and screen use for further occupational health studies.  
-
 ---
 
 ## Future Scope
