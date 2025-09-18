@@ -80,7 +80,7 @@ This project proposes a **vision-based, AI-driven, non-intrusive monitoring syst
 - **Streamlit** → Interactive wellness dashboard  
 
 ### **Notifications**
-- **Pygame / Toast / Custom Popups** → Real-time user alerts  
+- **Pygame ** → Real-time user alerts  
 
 ---
 
