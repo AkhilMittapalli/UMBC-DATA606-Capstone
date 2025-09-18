@@ -21,7 +21,8 @@ This project proposes a **vision-based, AI-driven, non-intrusive monitoring syst
 ## Methodology
 
 ### 1. Posture Recognition (Custom ML Model)
-- **Dataset:** The project will utilize a labeled dataset from Roboflow (*Sitting Posture Dataset*), covering multiple posture categories such as correct sitting, slouching, and leaning forward. Additional images may be collected to balance classes and improve robustness.  
+- **Dataset:** The project will utilize a labeled dataset from Roboflow (*Sitting Posture Dataset*), covering multiple posture categories such as correct sitting, slouching, and leaning forward. Additional images may be collected to balance classes and improve robustness.
+- Link:https://universe.roboflow.com/ikornproject/sitting-posture-rofqf
 - **Preprocessing:** Images will be resized, normalized, and augmented (rotation, scaling, brightness adjustments) to improve model generalization.  
 - **Model Training:**  
   - A YOLOv8-based model will be fine-tuned for real-time posture detection and classification.  
