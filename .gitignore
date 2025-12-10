@@ -1,0 +1,33 @@
+# Virtual environments
+venv*/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Gradio cache
+.gradio/
+
+# Temporary Office files
+~$*
+
+# Models (too large for git, will be auto-downloaded)
+models/*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
