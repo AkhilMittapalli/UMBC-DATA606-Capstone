@@ -12,7 +12,7 @@
 
 | Resource | Link |
 |----------|------|
-| **YouTube Presentation** | [Watch the Video Presentation](https://youtu.be/YOUR_VIDEO_ID) |
+| **YouTube Presentation** | [Watch the Video Presentation](https://youtu.be/Xz-HEnun7z8) |
 | **PowerPoint Presentation** | [View Final PPT](docs/Health_Monitor_Presentation.pptx) |
 | **Final Report** | [View Report](docs/report.md) |
 

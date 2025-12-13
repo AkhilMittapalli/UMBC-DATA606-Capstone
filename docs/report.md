@@ -11,7 +11,7 @@
 
 | Resource | Link |
 |----------|------|
-| **YouTube Presentation** | [Watch the Video Presentation](https://youtu.be/YOUR_VIDEO_ID) |
+| **YouTube Presentation** | [Watch the Video Presentation](https://youtu.be/Xz-HEnun7z8) |
 | **PowerPoint Presentation** | [View Final PPT](https://github.com/AkhilMittapalli/UMBC-DATA606-Capstone/blob/main/docs/Health_Monitor_Presentation.pptx) |
 | **GitHub Repository** | [https://github.com/AkhilMittapalli/UMBC-DATA606-Capstone](https://github.com/AkhilMittapalli/UMBC-DATA606-Capstone) |
 
